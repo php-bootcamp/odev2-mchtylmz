@@ -1,8 +1,8 @@
 <?php
 
-$sex = "male"; // cinsiyet (male/female)
-$weight = 90; // kilo (kg)
-$height = 181; // boy (cm)
+$sex = "female"; // cinsiyet (male/female)
+$weight = 55; // kilo (kg)
+$height = 170; // boy (cm)
 $age = 25; // yaş (sene)
 
 /**
