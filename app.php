@@ -1,6 +1,6 @@
 <?php
 
-$sex = "male"; // cinsiyet (male/female)
+$sex = "female"; // cinsiyet (male/female)
 $weight = 55; // kilo (kg)
 $height = 170; // boy (cm)
 $age = 25; // yaş (sene)
@@ -22,3 +22,11 @@ $age = 25; // yaş (sene)
  * 
  * Ekrana 1326.5 yazması gerekiyor.
  */
+ 
+$formul = 10 * $weight + 6.25 * $height - 5 * $age;
+if ($sex == 'female') {
+    $formul -= 161;
+} else {
+    $formul += 5;
+}
+echo $formul;
